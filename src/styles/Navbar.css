@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 40px;
+  width: 100vw;
+  padding: 15px;
+}
+.navbar .left-items, .navbar .right-items {
+  width: 40%;
+  font-size: small;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}/*# sourceMappingURL=Navbar.css.map */
