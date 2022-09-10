@@ -1,0 +1,8 @@
+[
+    { "id": 1, "title": "Naruto", "genre": ["action", "adventure", "anime"] },
+    { "id": 2, "title": "Inuyasha", "genre": ["action", "adventure", "anime"] },
+    { "id": 3, "title": "Gundam Wing", "genre": ["action", "adventure", "anime"] },
+    { "id": 4, "title": "Breaking Bad", "genre": ["action", "drama"] },
+    { "id": 5, "title": "Blade Runner 2049", "genre": ["action", "adventure", "sci-fi"] },
+    { "id": 6, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"] }
+]
