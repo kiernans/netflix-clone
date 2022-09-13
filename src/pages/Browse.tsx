@@ -6,7 +6,10 @@ const Browse = () => {
   return (
     <>
       <Navbar />
-      <Suggestion />
+      <Suggestion title={"Popular on Netflix"} />
+      <Suggestion title={"Continue Watching for..."} />
+      <Suggestion title={"Trending Now"} />
+      <Suggestion title={"Animation"} />
     </>
   );
 };
