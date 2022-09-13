@@ -1,8 +1,13 @@
 [
-    { "id": 1, "title": "Naruto", "genre": ["action", "adventure", "anime"] },
-    { "id": 2, "title": "Inuyasha", "genre": ["action", "adventure", "anime"] },
-    { "id": 3, "title": "Gundam Wing", "genre": ["action", "adventure", "anime"] },
-    { "id": 4, "title": "Breaking Bad", "genre": ["action", "drama"] },
-    { "id": 5, "title": "Blade Runner 2049", "genre": ["action", "adventure", "sci-fi"] },
-    { "id": 6, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"] }
+    { "id": 1, "title": "Naruto", "genre": ["action", "adventure", "anime"], "image": "hunter.webp"},
+    { "id": 2, "title": "Inuyasha", "genre": ["action", "adventure", "anime"], "image": "hunter.webp" },
+    { "id": 3, "title": "Gundam Wing", "genre": ["action", "adventure", "anime"], "image": "hunter.webp" },
+    { "id": 4, "title": "Breaking Bad", "genre": ["action", "drama"], "image": "hunter.webp" },
+    { "id": 5, "title": "Blade Runner 2049", "genre": ["action", "adventure", "sci-fi"], "image": "hunter.webp" },
+    { "id": 6, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"], "image": "hunter.webp" },
+    { "id": 7, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"], "image": "hunter.webp" },
+    { "id": 8, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"], "image": "hunter.webp" },
+    { "id": 9, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"], "image": "hunter.webp" },
+    { "id": 10, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"], "image": "hunter.webp" },
+    { "id": 11, "title": "Legends of the Fall", "genre": ["sentimental", "emotional", "romantic"], "image": "hunter.webp" }
 ]

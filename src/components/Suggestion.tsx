@@ -1,20 +1,59 @@
 import React from "react";
 import Movies from "../data/data.json";
 import SuggestionItem from "./SuggestionItem";
+import "../styles/Suggestion.css";
 
 const Suggestion = () => {
+  const left = "<";
+  const right = ">";
+
   return (
     <div className="suggestions">
-      {Movies.map((movie) => {
-        return (
-          <SuggestionItem
-            key={movie.id}
-            id={movie.id}
-            title={movie.title}
-            genre={movie.genre}
-          />
-        );
-      })}
+      <section id="section1">
+        <a href="#section3">{left}</a>
+        {Movies.slice(0, 5).map((movie) => {
+          return (
+            <SuggestionItem
+              key={movie.id}
+              id={movie.id}
+              title={movie.title}
+              genre={movie.genre}
+              image={movie.image}
+            />
+          );
+        })}
+        <a href="#section2">{right}</a>
+      </section>
+      <section id="section2">
+        <a href="#section1">{left}</a>
+        {Movies.slice(5, 10).map((movie, index) => {
+          return (
+            <SuggestionItem
+              key={movie.id}
+              id={movie.id}
+              title={movie.title}
+              genre={movie.genre}
+              image={movie.image}
+            />
+          );
+        })}
+        <a href="#section3">{right}</a>
+      </section>
+      <section id="section3">
+        <a href="#section2">{left}</a>
+        {Movies.slice(10, 15).map((movie, index) => {
+          return (
+            <SuggestionItem
+              key={movie.id}
+              id={movie.id}
+              title={movie.title}
+              genre={movie.genre}
+              image={movie.image}
+            />
+          );
+        })}
+        <a href="#section1">{right}</a>
+      </section>
     </div>
   );
 };

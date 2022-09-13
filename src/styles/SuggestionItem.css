@@ -1,5 +1,11 @@
 .item {
-  height: 100px;
-  width: 100px;
-  background-color: black;
+  padding: 0 2px;
+  transition: 250ms all;
+  height: 200px;
+  min-width: 200px;
+  color: white;
+}
+.item :hover {
+  margin: 0 40px;
+  transform: scale(1.5);
 }/*# sourceMappingURL=SuggestionItem.css.map */

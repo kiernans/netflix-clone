@@ -5,14 +5,13 @@ type SuggestionItemProps = {
   id: number;
   title: string;
   genre: string[];
+  image: string;
 };
 
-const SuggestionItem = ({ id, title, genre }: SuggestionItemProps) => {
+const SuggestionItem = ({ id, title, genre, image }: SuggestionItemProps) => {
   return (
     <div className="item">
-      {id}
-      {title}
-      {genre}
+      <img src={require(`../assets/images/${image}`)} alt="" />
     </div>
   );
 };
