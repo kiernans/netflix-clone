@@ -1,4 +1,9 @@
-.suggestions {
+.title {
+  color: white;
+  font-size: 10px;
+}
+
+.slider {
   display: grid;
   grid-template-columns: repeat(3, 100%);
   overflow: hidden;
