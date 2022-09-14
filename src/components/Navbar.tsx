@@ -6,7 +6,7 @@ const Navbar: FC = () => {
   return (
     <div className="navbar">
       <div className="left-items">
-        <Link to="/">
+        <Link to="/browse">
           <div>Netflix</div>
         </Link>
         <Link to="/">
